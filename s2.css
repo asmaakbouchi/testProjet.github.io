@@ -1,0 +1,28 @@
+
+/*_______________________________ header contact _______________________________________*/
+#headercontact { margin-top:5%; height: 28vh;background-color: rgb(0, 0, 119); position: relative;}
+#headercontact .text-center{ font-weight: bold; color: #fff; padding-top: 5%; position: relative;}
+/*--------------------------------___________________ CANTACTEZ NOUS _____________________--------------------------------------*/
+
+#container-contact h5 {color: rgb(20, 115, 204)}
+#container-contact #minhr2{width: 100px; height: 3px; }
+#container-contact .form-group{margin-bottom: 3%;}
+#container-contact  li{list-style: none;}
+#container-contact button{width: 100%; font-size: 13pt;}
+#container-contact fieldset{border: solid 1px rgb(0, 0, 119); width: 90%; padding: 3%; border-radius: 5px;}
+#container-contact .form-group span{color: red;}
+#container-contact a,i{text-decoration: none; color: rgb(0, 0, 119); font-weight: bold; }
+#container-contact a:hover{color: rgb(20, 115, 204);}
+
+
+@media (max-width: 393px),(max-width:428px),(max-width:428px),(max-width:759px),(max-width:999px){
+  /*----------------------------____________________Contact responsive_______________________-------------------------*/
+  #container-contact fieldset{ width: 98%; padding: 5%; }
+  #container-contact .col-md-5{margin-top: 10%;}
+  #container-contact #btn{height: 40px;margin-top: 1%;}
+  #headercontact { margin-top:-10%; height: 36vh;}
+}
+
+
+
+
